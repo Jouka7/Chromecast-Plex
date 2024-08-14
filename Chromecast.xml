@@ -8,8 +8,8 @@
     <SubtitleProfile container="ass" codec="ass" />
   </TranscodeTargets>
  <DirectPlayProfiles>
-    <VideoProfile container="mp4" codec="hevc,h265,mpeg1video,mpeg2video,h264,mpeg4" audioCodec="aac,mp3,mp2"/>
-    <VideoProfile container="mkv" codec="vp9,hevc,h265,mpeg1video,mpeg2video,h264,mpeg4" audioCodec="aac,mp3,mp2,pcm,flac,alac" subtitleFormat="srt,ass"/>
+    <VideoProfile container="mp4" codec="Hevc,h265,mpeg1video,mpeg2video,h264,mpeg4" audioCodec="aac,mp3,mp2"/>
+    <VideoProfile container="mkv" codec="vp9,Hevc,h265,mpeg1video,mpeg2video,h264,mpeg4" audioCodec="aac,mp3,mp2,pcm,flac,alac" subtitleFormat="srt,ass"/>
     <MusicProfile container="mp3" codec="mp2,mp3"/>
     <MusicProfile container="mp4" codec="aac"/>
     <MusicProfile container="flac" codec="flac"/>
@@ -17,7 +17,7 @@
     <PhotoProfile container="jpeg,png,gif"/>
   </DirectPlayProfiles>
 <CodecProfiles>
-    <VideoCodec name="h265,hevc,vp9">
+    <VideoCodec name="h265,Hevc,vp9">
       <Limitations>
         <UpperBound name="video.width" value="3840"/>
         <UpperBound name="video.height" value="2176"/>
